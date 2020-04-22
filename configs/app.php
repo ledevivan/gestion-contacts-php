@@ -8,8 +8,8 @@ $db_configs = require "database.php";
  * @var $db_config array of database configs use in application
  */
 
-$db_config = !empty(getenv("DB_HOST")) ? $db_configs["prod_pgsql"] : $db_configs["local"];
-// $db_config =  $db_configs["prod_mysql"]; // To set MySql online configs
+$db_config = !empty(getenv("DB_HOST")) ? $db_configs["prod_mysql"] : $db_configs["local"];
+// $db_config =  $db_configs["prod_pgsql"]; // To set MySql online configs
 
 define('APP_NAME', "WEBCONTACTS :: GESTION DE CONTACTS  ");
 define('DB_DRIVER', $db_config['db_driver']);

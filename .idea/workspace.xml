@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1472e1e-f43c-4fff-859d-cbbbdaaedfd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configs/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands/db_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/migrate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/databases/create_database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/10_04_2020_12_04_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_52.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_56.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/.well-known/acme-challenge/RfEtKzlql9N88NUul0ynC7SQ6o6z6YdJwOC-7HwH6PQ" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587571096085</updated>
-      <workItem from="1587571097897" duration="8500000" />
+      <workItem from="1587571097897" duration="8810000" />
     </task>
     <servers />
   </component>
@@ -105,5 +89,9 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="478" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/93.0.1827.1080@93.0.1827.1080" timestamp="1587572750050" />
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1587582471156">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1587582471156" />
   </component>
 </project>
