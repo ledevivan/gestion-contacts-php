@@ -1,0 +1,15 @@
+{
+    "name": "ivan_ledev/php_contact_app",
+    "authors": [
+        {
+            "name": "ledevivan",
+            "email": "ledevivan@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "require": {
+        "csanquer/pdo-service-provider": "~1.1dev"
+    }
+}

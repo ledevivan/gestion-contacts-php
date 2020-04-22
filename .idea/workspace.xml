@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1472e1e-f43c-4fff-859d-cbbbdaaedfd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configs/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands/db_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/bin/migrate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/create_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/databases/create_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/webroot/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/10_04_2020_12_04_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_56.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webroot/uploads/18_03_2020_04_03_58.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/heroku/heroku-buildpack-php" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/silex/silex" />
+      <path value="$PROJECT_DIR$/vendor/csanquer/pdo-service-provider" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1au2KqVdGIbP3qgkBe6aptko875" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1472e1e-f43c-4fff-859d-cbbbdaaedfd5" name="Default Changelist" comment="" />
+      <created>1587571096085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587571096085</updated>
+      <workItem from="1587571097897" duration="8500000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="841" y="463" key="NewPhpFileDialog" timestamp="1587573039961">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="841" y="463" key="NewPhpFileDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1587573039961" />
+    <state x="507" y="182" key="SettingsEditor" timestamp="1587572852224">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="507" y="182" key="SettingsEditor/93.0.1827.1080@93.0.1827.1080" timestamp="1587572852224" />
+    <state x="478" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587572750050">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="478" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/93.0.1827.1080@93.0.1827.1080" timestamp="1587572750050" />
+  </component>
+</project>
