@@ -5,7 +5,8 @@
 
 ### Test application
 * Go to application dir with your terminal  to type these commands
-* create database: ` mysql -u root -p -e "create database contacts" `
+* create database: ` mysql -u root -p -e "create database contacts" ` to create your database in the terminal
+.You can use any other application you want
 * Create application tables :
     * `php bin/migrate `
         * Choose 1 for create tables
