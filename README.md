@@ -13,7 +13,10 @@
         * choose 2 for create admin user
     * NB: You  can to just create table with `php bin/migrate migrate-tables`
 * Now start application with command ` php -S 127.0.0.2:80 -t webroot `
-* Launch application on URL `http://127.0.0.2`
+* Launch application on URL `http://127.0.0.2
+
+### Demonstation
+Demonstration of application ar availlaable on `http://demowebcontacts.epizy.com` with login and password : `admin` and `admin`
 
 Note: Use this code for **lean php coding**  or code a **demonstration application**
 
