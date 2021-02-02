@@ -1,23 +1,16 @@
-# Procedural PHP : Conatcts Management App
-
-### Install instructions
-* database : contacts
-
-### Test application
-* Go to application dir with your terminal  to type these commands
-* create database: ` mysql -u root -p -e "create database contacts" ` to create your database in the terminal
-.You can use any other application you want
-* Create application tables :
-    * `php bin/migrate `
-        * Choose 1 for create tables
-        * choose 2 for create admin user
-    * NB: You  can to just create table with `php bin/migrate migrate-tables`
-* Now start application with command ` php -S 127.0.0.2:80 -t webroot `
-* Launch application on URL `http://127.0.0.2
-
-### Demonstation
-Demonstration of application ar availlaable on `http://demowebcontacts.epizy.com` with login and password : `admin` and `admin`
-
-Note: Use this code for **lean php coding**  or code a **demonstration application**
+Gestion de contacts avec PHP
 
 
+
+installation
+
+* Lancer son terminal
+  * créer la bd :  `mysql -u root -p -e  "create database conact"`
+  * Créer les tables : `php bin/migrate create-tables`
+  * Insérer les enregistrements de test : `php bin/migrate migrate-tables` 
+  * Démarrer le server` php -S 127.0.0.2:80 -t webroot `
+  * Ouvrir le navigateur sur l'URL sur l'URL `http://127.0.0.2
+
+Démonstration en ligne :   http://demowebcontacts.epizy.com 
+
+Compte de démonstration : login et mot de passe admin et admin
