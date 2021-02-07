@@ -1,2 +1,0 @@
-INSERT INTO `users` (`login`, `password`, `email`, `profile_image`, `created_at`, `updated_at`) VALUES
-	( 'admin', '$2y$10$08uzfLeNbd2td49BTHrz.eElbTE.DI4cWS7kDgVnHan4uQ9qHe4Ta', 'admin@gmai.com', NULL, '2020-03-18 10:55:34', NULL);

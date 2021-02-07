@@ -40,7 +40,7 @@ function update_post($title,$content,$category_id,$image_filename, $id)
             [$title, $content, $category_id, $id]);
     }else{
         pdo_query($pdo,
-            "UPDATE  posts SET title = ?,content = ?,category_id = ?,image, updated_at = now() = ? WHERE id = ?",
+            "UPDATE  posts SET title = ?,content = ?,category_id = ?,image = ?, updated_at = now()  WHERE id = ?",
             [$title, $content, $category_id, $image_filename,$id]);
     }
     return true;

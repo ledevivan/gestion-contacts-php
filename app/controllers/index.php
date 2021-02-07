@@ -3,7 +3,7 @@
     if ( !empty($_POST) ){
 
         if ( empty($_POST['login']) OR empty($_POST['password']) ) {
-            set_session_flash("Vous devew remplir tout les champs","danger");
+            set_session_flash("Vous devez remplir tout les champs","danger");
             redirect_to("index.php");
         }
         $user = check_user_logins($_POST['login'],$_POST['password']);
@@ -14,7 +14,7 @@
         }
         if (is_object($user)) {
             set_user_session($user);
-            set_session_flash("Connexino reussie");
+            set_session_flash("Connexion réussie");
             redirect_to(url_for("home"));
         }
 

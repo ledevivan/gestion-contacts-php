@@ -22,9 +22,9 @@
         $pdo = getPdo();
         $existTitle = pdo_query($pdo,"SELECT * FROM posts WHERE title = ? ",[$_POST['title']])->rowCount();
         if ( !empty($existTitle) ) {
-            $errors['title'][] = "Titre deja utiliser";
+            $errors['title'][] = "Titre déja utiliser";
         }
-        $file_name = uploadFile("image",['png','jpg','jpeg']);
+        $file_name = uploadFile("image",['png','jpg','jpeg'],APP_UPLOADS_DIR);
         if ( !is_string($file_name ) ) {
             $errors['image'] = $file_name;
         }

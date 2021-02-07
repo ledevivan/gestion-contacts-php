@@ -19,7 +19,10 @@ if ( !empty($_POST) ) {
         redirect_to(url_for("dashboard.articles.create"));
     }
     $pdo = getPdo();
-    $existTitle = pdo_query($pdo,"SELECT * FROM posts WHERE title = ? AND id != ?",[$_POST['title'],$article_id])->rowCount();
+    $existTitle = pdo_query($pdo,"SELECT * FROM posts WHERE title = ? AND id != ?",[
+        $_POST['title'],
+        $article_id
+    ])->rowCount();
     if ( !empty($existTitle) ) {
         $errors['title'][] = "Titre deja utiliser";
     }

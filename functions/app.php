@@ -30,8 +30,11 @@ function url_for($page)
  * File upload
  * @return mixed string filename or  array  errors.
  */
-function uploadFile($file_index,$extensions_autorisees = array('pdf'),$dir = "uploads")
+function uploadFile($file_index,$extensions_autorisees = ['pdf','png','jpg','jpeg'],$dir = null)
 {
+    if(empty($dir)) {
+        $dir = dirname(__DIR__).DIRECTORY_SEPARATOR."webroot".DIRECTORY_SEPARATOR."uploads";
+    }
     $errors = [];
     // Testons si le fichier a bien été envoyé et s'il n'y a pasd'erreur
     if (isset($_FILES[$file_index]) AND $_FILES[$file_index]['error'] > 0) {

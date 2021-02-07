@@ -10,6 +10,16 @@ function getPdo()
     return $pdo;
 }
 
+function getPdoWithoutDb()
+{
+    $pdo = new PDO("mysql:host=localhost", DB_USER, DB_PASSWORD, [
+        3 => 2,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
+    ]);
+    return $pdo;
+}
+
+
 
 /*
  *

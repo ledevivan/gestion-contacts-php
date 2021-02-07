@@ -1,8 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b1472e1e-f43c-4fff-859d-cbbbdaaedfd5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/views/includes/html_scripts_tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cmd/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/article_create.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/article_create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/controllers/article_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/controllers/article_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/models/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/models/article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/views/includes/html_head_tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/../app/views/includes/html_head_tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/migrate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configs/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../configs/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configs/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databases/create_database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databases/db_seeds_dump.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databases/tables_migrations/create_categories_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databases/tables_migrations/create_posts_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../databases/tables_migrations/create_users_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../functions/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../functions/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/../functions/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webroot/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../webroot/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webroot/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webroot/assets/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webroot/assets/js/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../webroot/assets/js/jquery.slim.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,12 +50,10 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -48,16 +85,22 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gestion-utilisateurs-php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\enligne\gestion-contacts-php\webroot" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -71,28 +114,39 @@
       <updated>1587571096085</updated>
       <workItem from="1587571097897" duration="11548000" />
       <workItem from="1587598380349" duration="227000" />
+      <workItem from="1612363082355" duration="796000" />
+      <workItem from="1612388169870" duration="950000" />
+      <workItem from="1612406943956" duration="6542000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="841" y="463" key="NewPhpFileDialog" timestamp="1587573039961">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state x="349" y="401" key="#SQL_Dialects" timestamp="1612410493533">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="841" y="463" key="NewPhpFileDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1587573039961" />
-    <state x="507" y="182" key="SettingsEditor" timestamp="1587572852224">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state x="349" y="401" key="#SQL_Dialects/0.40.1920.1040@0.40.1920.1040" timestamp="1612410493533" />
+    <state x="573" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612363422233">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="507" y="182" key="SettingsEditor/93.0.1827.1080@93.0.1827.1080" timestamp="1587572852224" />
-    <state x="478" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587572750050">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state x="573" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1920.1040@0.40.1920.1040" timestamp="1612363422233" />
+    <state x="740" y="314" key="FileChooserDialogImpl" timestamp="1612413575369">
+      <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="478" y="121" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/93.0.1827.1080@93.0.1827.1080" timestamp="1587572750050" />
-    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1587582471156">
-      <screen x="93" y="0" width="1827" height="1080" />
-    </state>
-    <state x="669" y="235" width="672" height="678" key="search.everywhere.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1587582471156" />
+    <state x="740" y="314" key="FileChooserDialogImpl/0.40.1920.1040@0.40.1920.1040" timestamp="1612413575369" />
   </component>
 </project>
